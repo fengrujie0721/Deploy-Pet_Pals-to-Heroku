@@ -11,7 +11,7 @@ Add all deployment required files into Pet_Pals repo, including app file, models
 
 
 
-Firts, activate pet_pals_env environment. Then, install gunicorn, psycopg2, flask, flask-sqlalchemy, and pandas. Finally, initialize the database by running python initdb.py, executing run.sh.
+First, activate pet_pals_env environment. Then, install gunicorn, psycopg2, flask, flask-sqlalchemy, and pandas. Finally, initialize the database by running python initdb.py, executing run.sh.
 
 
 3.Create Procfile 
