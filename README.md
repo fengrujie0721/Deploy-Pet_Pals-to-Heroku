@@ -20,7 +20,7 @@ Firts, activate pet_pals_env environment. Then, install gunicorn, psycopg2, flas
 Prockfile is to instruct Heroku to run the app. Add the code of web: gunicorn pet_pals.app:app to the Procfile
 
 
-4. Create the Heroku App
+4.Create the Heroku App
 
-Sign up a Heroku account and create a new app. In the deployment method, select GitHub and connect to Pet_Pals repo.
+Sign up a Heroku account and create a new app. In the deployment method, select GitHub and connect to Pet_Pals repo. Navigate to Manual deploy and click deploy Branch. Navigate to Resources, search Heroku Postgres, click Provision.
 
