@@ -22,5 +22,5 @@ Prockfile is to instruct Heroku to run the app. Add the code of web: gunicorn pe
 
 4.Create the Heroku App
 
-Sign up a Heroku account and create a new app. In the deployment method, select GitHub and connect to Pet_Pals repo. Navigate to Manual deploy and click deploy Branch. Navigate to Resources, search Heroku Postgres, click Provision.
+Sign up a Heroku account and create a new app. In the deployment method, select GitHub and connect to Pet_Pals repo. Navigate to Manual deploy and click deploy Branch. Navigate to Resources, search Heroku Postgres, click Provision. A URI is created in Settings--View Credentials. Heroku will automaticlly assign this URI string to the Database_url environment variable that is used within app.py.
 
