@@ -28,4 +28,5 @@ Sign up a Heroku account and create a new app. In the deployment method, select 
 
 
 Install Heroku CLI. At the terminal, run initdb.py by typing heroku run python initdb.py -a <name of app>
+Alternatively, it can be initialized by clicking Open App on the webpage
 
